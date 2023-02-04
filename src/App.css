@@ -453,13 +453,28 @@ button {
 }
 
 .career-pos {
-  display: grid;
-  grid-template-columns: 1fr;
   color: #fff;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 .career-pos h1, p {
   display: block;
+}
+
+.career_col-1 {
+  margin-bottom: 6rem;
+}
+
+.career_btn {
+  background-color: #ffbb00;
+  color: #000;
+  padding: 0.5rem;
+}
+
+.career_btn-cont {
+  margin: 1rem 0 3rem 0;
 }
 
 @media screen and (max-width: 1000px) {

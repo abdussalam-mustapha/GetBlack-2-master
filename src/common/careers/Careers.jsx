@@ -9,7 +9,7 @@ function Careers() {
             style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}
             className="vendors-img career-pos"
         >
-            <div>
+            <div className="career_col-1">
                 <header className="">
                     <h1 className="">
                         Join Our Team
@@ -32,10 +32,10 @@ function Careers() {
                     </div>
                 </div>
                 <div className="">
-                    <div className="">
+                    <div className="career_btn-cont">
                         <Link
                             to="/career-roles"
-                            className="btn bg-[#FFD700] hover:bg-[#52CD8B] border-none text-black p-2 md:p-3 font-bold uppercase text-md rounded-lg w-full"
+                            className="career_btn"
                         >
                             View all open roles
                         </Link>
