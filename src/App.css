@@ -473,6 +473,37 @@ button {
   padding: 0.5rem;
 }
 
+.contact_main {
+  padding: 3rem 0;
+}
+
+.contact-header {
+  margin: 2rem 0;
+  box-shadow: none;
+}
+
+.contact-header p {
+  /* margin-bottom: 5rem; */
+}
+
+.logo_row {
+  display: flex;
+  width: 100%;
+}
+
+.logo_row img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.con_sect {
+  margin: 0 4rem;
+}
+
+.icon_row {
+  display: flex;
+}
+
 .career_btn-cont {
   margin: 1rem 0 3rem 0;
 }

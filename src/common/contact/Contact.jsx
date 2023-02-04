@@ -33,19 +33,19 @@ function Contact() {
 
   return (
     <>
-      <div className="container">
-        <header className="">
+      <div className="container contact_main">
+        <header className="contact-header">
           <h1 className="">Contact Us</h1>
           <p className="">
             Want to get in touch with us? We’d love to hear from you and our
             team is happy to assist. Here’s how you can reach us.
           </p>
         </header>
-        <div className="">
+        <div className="logo_row">
           {/* the location icons and details section */}
           <div className="">
-            <div className=" ">
-              <div className="">
+            <div className="icon_row">
+              <div className="con_sect">
                 <div className="">
                   <img
                     src={addressLogo}
@@ -60,7 +60,7 @@ function Contact() {
                   </p>
                 </div>
               </div>
-              <div className="">
+              <div className="con_sect">
                 <div className="">
                   <img
                     src={phoneLogo}
@@ -73,7 +73,7 @@ function Contact() {
                   <p className="text-md">+37256766107</p>
                 </div>
               </div>
-              <div className="">
+              <div className="con_sect">
                 <div className="">
                   <img
                     src={emailLogo}
