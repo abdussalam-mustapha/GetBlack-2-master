@@ -14,7 +14,7 @@ function Careers() {
                     <h1 className="">
                         Join Our Team
                     </h1>
-                    <p className="text-md text-white">
+                    <p className="">
                         GetBlack is revolutionalizing the way African goods and products are been showcased to the world.
                     </p>
                     <p className="">
