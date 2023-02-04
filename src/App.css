@@ -488,6 +488,7 @@ button {
 
 .logo_row {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -506,6 +507,27 @@ button {
 
 .career_btn-cont {
   margin: 1rem 0 3rem 0;
+}
+
+.blog_img-sect {
+  
+}
+
+.blog-img  {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 400px;
+  max-width: 500px;
+  height: 400px;
+  max-height: 500px;
+}
+
+.blog-img img {
+  width: 550px;
+  height: 400px;
+  /* min-width: 300px;
+  min-height: 350px; */
 }
 
 @media screen and (max-width: 1000px) {

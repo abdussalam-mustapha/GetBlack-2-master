@@ -10,12 +10,12 @@ function Blog() {
         </h1>
     </header>
 
-    <section className="mt-2 md:mt-6 min-h-full">
-            <div className="grid place-items-center gap-4 mx-1 md:mx-4 w-full">
+    <section className="blog_img-sect">
+            <div className="blog-img">
               <img
                 src="https://res.cloudinary.com/dirwn9yno/image/upload/v1664363233/getblack/image_a4xw74.png" 
                 alt=""
-                className="w-full h-full"
+                className=""
               />
             </div>
             <h3 className="font-bold my-4">Online shopping - An alternative to shopping in the mall.</h3>
