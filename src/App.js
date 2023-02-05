@@ -19,6 +19,7 @@ import Terms from "./common/terms/Terms"
 import Contact from "./common/contact/Contact"
 import HelpCenter from "./common/helpcenter/HelpCenter"
 import CareerRoles from "./common/careers/CareerRoles"
+import FaqSect from "./common/faq/FaqSect"
 
 function App() {
   /*
@@ -121,7 +122,7 @@ function App() {
             <CareerRoles />
           </Route>
           <Route path='/faq' exact>
-            <faq />
+            <FaqSect />
           </Route>
         </Switch>
         <GroupFooter />
