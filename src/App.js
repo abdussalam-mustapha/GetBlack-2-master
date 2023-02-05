@@ -120,6 +120,9 @@ function App() {
           <Route path='/career-roles' exact>
             <CareerRoles />
           </Route>
+          <Route path='/faq' exact>
+            <faq />
+          </Route>
         </Switch>
         <GroupFooter />
       </Router>

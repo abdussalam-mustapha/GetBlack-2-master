@@ -54,7 +54,8 @@ const faq = () => {
                 data={data}
                 styles={styles}
                 config={config}
-            /></>
+            />
+    </>
   )
 }
 
