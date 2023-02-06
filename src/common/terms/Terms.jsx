@@ -35,10 +35,6 @@ function Terms() {
           </header>
         </div>
       </div>
-      {/* <div className=" absolute top-0 w-full -z-0">
-        <div className="bg-[#0A0865] h-[500px] lg:rounded-b-full ">
-        </div>
-      </div> */}
     </>
   );
 }

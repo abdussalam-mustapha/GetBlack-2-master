@@ -29,7 +29,7 @@ const AboutUs = () => {
 
   return (
     <>
-    <div className="container about-container">
+    <div className="about-container">
       <div className="about-section d_flex">
         <div className="about-text">
           <h3>About Us</h3>

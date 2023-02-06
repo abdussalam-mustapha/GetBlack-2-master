@@ -1,3 +1,4 @@
+import { orange } from '@mui/material/colors';
 import React from 'react'
 import Faq from "react-faq-component";
 
@@ -5,7 +6,7 @@ const FaqSect = () => {
 
 
     const data = {
-        title: "FAQ (How it works)",
+        title: "",
         rows: [
             {
                 title: "How to buy on GetBlack?",
@@ -53,22 +54,24 @@ const FaqSect = () => {
     };
     
     const styles = {
-        // bgColor: 'white',
-        titleTextColor: "blue",
-        rowTitleColor: "blue",
-        // rowContentColor: 'grey',
-        // arrowColor: "red",
+        // bgColor: 'orange',
+        titleTextColor: "black",
+        titleBgColor: "blue",
+        rowTitleColor: "black",
+        rowContentColor: 'grey',
+        arrowColor: "orange",
     };
     
     const config = {
-        // animate: true,
+        animate: true,
         // arrowIcon: "V",
-        // tabFocus: true
+        tabFocus: true
     };
     
 
   return (
-    <div>
+    <div className='faq-main'>
+        <h1 className='faq-title'>Frequently asked questions</h1>
     <Faq
                 data={data}
                 styles={styles}

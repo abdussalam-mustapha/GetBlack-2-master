@@ -104,7 +104,7 @@ header ul li a {
   font-weight: 400;
 }
 header ul li a:hover {
-  color: #ff014f;
+  color: orange;
 }
 
 
@@ -177,23 +177,25 @@ header ul li a:hover {
     position: absolute;
     top: 35px;
     right: 20px;
-    color: #ff014f;
+    color: orange;
     display: block;
     font-size: 25px;
     z-index: 999;
+    cursor: pointer;
   }
   .close {
     right: 45%;
   }
   .close.home-btn {
     /* background: linear-gradient(145deg, #e2e8ec, #ffffff); */
-    color: #ff014f;
+    color: orange;
     border-radius: 50%;
     padding: 0;
     width: 60px;
     height: 60px;
     line-height: 60px;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
   }
   .header.active {
     height: 10vh;

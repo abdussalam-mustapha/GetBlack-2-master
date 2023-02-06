@@ -2,7 +2,7 @@ import React from "react";
 
 function Blog() {
  return (
-   <div className="container mx-auto relative z-10">
+   <div className="">
     <div className="blog_main">
     <header className="blog_header">
         <h1 className="my-4 font-extrabold text-4xl">

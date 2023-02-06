@@ -12,16 +12,16 @@ const vendors = () => {
     <div className=" v_flex">
       <div className="vp_flex">
         <div className="">
-          <h1 className="">
+          <h2 className="">
             Reach new customers and get more orders with GetBlack.
-          </h1>
+          </h2>
         </div>
       </div>
       <div className="vp_btn">
         <div className="vp_btn-main">
           <Link
             to="/vendor-register"
-            className="v_btn bg-[#FFD700] hover:bg-[#52CD8B] border-none text-black p-2 md:p-3 font-bold uppercase text-md rounded-lg w-full"
+            className="v_btn"
           >
             Apply Now
           </Link>
