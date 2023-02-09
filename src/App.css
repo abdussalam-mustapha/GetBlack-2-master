@@ -541,6 +541,10 @@ button {
 
 .btn {
   background-color: orange;
+  padding: 1rem;
+  margin: 0 1rem;
+  color: #fff;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1000px) {

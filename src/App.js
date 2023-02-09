@@ -20,6 +20,7 @@ import Contact from "./common/contact/Contact"
 import HelpCenter from "./common/helpcenter/HelpCenter"
 import CareerRoles from "./common/careers/CareerRoles"
 import FaqSect from "./common/faq/FaqSect"
+import Login from "./common/signup/Login"
 
 function App() {
   /*
@@ -123,6 +124,9 @@ function App() {
           </Route>
           <Route path='/faq' exact>
             <FaqSect />
+          </Route>
+          <Route path='/login' exact>
+            <Login />
           </Route>
         </Switch>
         <GroupFooter />
