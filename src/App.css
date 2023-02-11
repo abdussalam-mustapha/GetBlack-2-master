@@ -567,7 +567,8 @@ button {
   border-radius: 15px;
 }
 
-.btn-login {
+.btn-login,
+.btn-register {
   margin: 3rem 0 0 0;
 }
 
@@ -578,16 +579,20 @@ button {
   align-items: center;
 }
  .sign_flex p,
- .sign_flex span {
+ .sign_flex span,
+ .register_flex p,
+ .register_flex span {
   margin: 3rem 3rem;
  }
 
-.login_header {
+.login_header,
+.register_header {
   font-size: 3rem;
   margin: 3rem 0;
 }
 
-.login-section input {
+.login-section input,
+.register_section input {
   display: flex;
   flex-direction: column;
   width: 20rem;
@@ -597,7 +602,8 @@ button {
   padding-left: 2rem;
 }
 
-.login-section form {
+.login-section form, 
+.register_section form {
   display: flex;
   flex-direction: column;
   justify-content: center;

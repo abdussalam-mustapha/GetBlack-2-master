@@ -4,6 +4,7 @@ const Register = () => {
     return (
         <div className='register_section'>
             <section className="signup">
+                <h1 className='register_header'></h1>
                 <form>
                     {/* <label htmlFor="username">Username:</label> */}
                     <input
@@ -21,6 +22,15 @@ const Register = () => {
                         type="password"
                         id="password"
                         placeholder='Password'
+                        // ref={userRef}
+                        // onChange={(e) => setPwd(e.target.value)}
+                        // value={pwd}
+                        required
+                    />
+                    <input
+                        type="email"
+                        id="mail"
+                        placeholder='email address'
                         // ref={userRef}
                         // onChange={(e) => setPwd(e.target.value)}
                         // value={pwd}
