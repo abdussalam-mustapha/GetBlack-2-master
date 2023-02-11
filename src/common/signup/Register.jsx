@@ -2,7 +2,7 @@ import React from 'react'
 
 const Register = () => {
     return (
-        <div>
+        <div className='register_section'>
             <section className="signup">
                 <form>
                     {/* <label htmlFor="username">Username:</label> */}

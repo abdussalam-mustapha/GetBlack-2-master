@@ -547,9 +547,8 @@ button {
   border-radius: 5px;
 }
 
-.login-section {
-  /* width: 60%; */
-  /* background-color: #0f3460; */
+.login-section,
+.register_section {
   display: flex;
   flex-direction: column;
   justify-content: center;
