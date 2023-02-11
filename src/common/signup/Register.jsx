@@ -36,7 +36,7 @@ const Register = () => {
                         // value={pwd}
                         required
                     />
-                    <button className='btn btn-register'>Sign In</button>
+                    <button className='btn btn-register'>Sign Up</button>
                 </form>
                 <div className="register_flex">
                     <p>

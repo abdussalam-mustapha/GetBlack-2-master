@@ -708,6 +708,17 @@ button {
     width: 100%;
     padding: 0 !important;
   }
+  .login,
+  .signup {
+    width: 80%;
+  }
+
+  .login input,
+  .signup input {
+    width: 100%;
+  }
+
+  
   .logo_row {
     padding: 0 !important;
     margin: 2rem 0 !important;
@@ -784,5 +795,9 @@ button {
   }
   .con_sect {
     margin: 1.5rem 0 !important;
+  }
+  .register_flex,
+  .sign_flex {
+   font-size: 8.5px;
   }
 }
