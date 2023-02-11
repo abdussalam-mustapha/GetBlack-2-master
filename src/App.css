@@ -547,6 +547,66 @@ button {
   border-radius: 5px;
 }
 
+.login-section {
+  /* width: 60%; */
+  /* background-color: #0f3460; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  background-color: #1d1c1c1a;
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+  border-radius: 15px;
+}
+
+.btn-login {
+  margin: 3rem 0 0 0;
+}
+
+.sign_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .sign_flex p,
+ .sign_flex span {
+  margin: 3rem 3rem;
+ }
+
+.login_header {
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+.login-section input {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.login-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login {
+  width: 200px !important;
+}
+
 @media screen and (max-width: 1000px) {
   .about-card {
     width: 300px;
