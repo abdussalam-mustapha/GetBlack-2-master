@@ -21,6 +21,7 @@ import HelpCenter from "./common/helpcenter/HelpCenter"
 import CareerRoles from "./common/careers/CareerRoles"
 import FaqSect from "./common/faq/FaqSect"
 import Login from "./common/signup/Login"
+import Register from "./common/signup/Register"
 
 function App() {
   /*
@@ -127,6 +128,9 @@ function App() {
           </Route>
           <Route path='/login' exact>
             <Login />
+          </Route>
+          <Route path='/signup' exact>
+            <Register />
           </Route>
         </Switch>
         <GroupFooter />

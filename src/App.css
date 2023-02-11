@@ -556,7 +556,8 @@ button {
   align-items: center;
 }
 
-.login {
+.login,
+.signup {
   display: flex;
   background-color: #1d1c1c1a;
   width: 400px;
@@ -571,7 +572,8 @@ button {
   margin: 3rem 0 0 0;
 }
 
-.sign_flex {
+.sign_flex,
+.register_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -603,7 +605,8 @@ button {
   align-items: center;
 }
 
-.btn-login {
+.btn-login,
+.btn-register {
   width: 200px !important;
 }
 
