@@ -1,95 +1,43 @@
-import React from 'react'
-import { useRef, useState, useEffect } from "react"
+import React from 'react';
 
-const Login = () => {
+import { useRef, useState, useEffect } from "react";
 
-    const userRef = useRef()
-    const errRef = useRef()
+import { FaRegUserCircle } from "react-icons/fa";
 
-    const [user, setUser] = useState("")
-    const [pwd, setPwd] = useState("")
-    const [errMsg, setErrMsg] = useState("")
-    const [success, setSuccess] = useState("false")
+import { FiMail } from "react-icons/fi"
 
-    const imageUrl =
+import { BsFillLockFill } from "react-icons/bs"
+
+const imageUrl =
         "https://res.cloudinary.com/dirwn9yno/image/upload/v1676207185/getblack/istockphoto-1346094859-612x612_xoyuk2.jpg"
 
 
-    useEffect(() => {
-        setErrMsg();
-    }, [user, pwd])
+const Login = () => {
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        console.log(user, pwd);
-        setUser("");
-        setPwd("");
-        setSuccess(true)
-    }
 
     return (
-        <>
-            <div
-                style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}
-                className="vendors-img career-pos"
-            >
-                <section className='login-section'>
-                    {
-                        success ?
-                            (
-                                <section className='login'>
-                                    <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
-                                    <h1 className="login_header">Sign in</h1>
-                                    <form onSubmit={handleSubmit}>
-                                        {/* <label htmlFor="username">Username:</label> */}
-                                        <input
-                                            type="text"
-                                            id="username"
-                                            placeholder='Username'
-                                            ref={userRef}
-                                            autoComplete="off"
-                                            onChange={(e) => setUser(e.target.value)}
-                                            value={user}
-                                            required
-                                        />
-                                        {/* <label htmlFor="password">Password:</label> */}
-                                        <input
-                                            type="password"
-                                            id="password"
-                                            placeholder='Password'
-                                            ref={userRef}
-                                            onChange={(e) => setPwd(e.target.value)}
-                                            value={pwd}
-                                            required
-                                        />
-                                        <button className='btn btn-login'>Sign In</button>
-                                    </form>
-                                    <div className="sign_flex">
-                                        <p>
-                                            Need an account?
-                                        </p>
+        <section className='lg_sect' style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}>
 
-                                        <span className="line">
-                                            {/* put router link */}
-                                            <a href="#">Sign Up</a>
-                                        </span>
+                <form action="">
+                    <h2>Register Form</h2>
+                    <div className="input-container">
+                        <FaRegUserCircle className="icon"/>
+                        <input className="input-field" type="text" placeholder="Username" name="usrnm" />
+                    </div>
 
-                                    </div>
-                                </section>
-                            ) :
-                            (
-                                <section>
-                                    <h1>you're logged in</h1>
-                                    <br />
-                                    <p>
-                                        <a href="#">Go to home</a>
-                                    </p>
-                                </section>
-                            )
-                    }
-                </section>
-            </div>
-        </>
+                    <div className="input-container">
+                        <FiMail className='icon'/>
+                        <input className="input-field" type="text" placeholder="Email" name="email" />
+                    </div>
+
+                    <div className="input-container">
+                        <BsFillLockFill className='icon'/>
+                        <input className="input-field" type="password" placeholder="Password" name="psw" />
+                    </div>
+
+                    <button type="submit" className="l_btn btn">Register</button>
+                </form>
+        </section>
     )
 }
 

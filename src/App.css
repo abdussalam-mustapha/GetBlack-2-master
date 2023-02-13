@@ -547,73 +547,69 @@ button {
   border-radius: 5px;
 }
 
-.login-section,
-.register_section {
+.lg_sect,
+.rg_section {
+  padding: 4rem 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.login,
-.signup {
+form {
   display: flex;
-  background-color: #1d1c1c1a;
-  width: 400px;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin: 5rem 0;
+  align-items: center;
+  background-color: #0000008e;
+  padding: 4rem 5rem;
   border-radius: 15px;
 }
 
-.btn-login,
-.btn-register {
-  margin: 3rem 0 0 0;
-}
-
-.sign_flex,
-.register_flex {
+.input-container {
+  display: -ms-flexbox; /* IE10 */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
- .sign_flex p,
- .sign_flex span,
- .register_flex p,
- .register_flex span {
-  margin: 3rem 3rem;
- }
-
-.login_header,
-.register_header {
-  font-size: 3rem;
-  margin: 3rem 0;
+  width: 400px;
+  margin-bottom: 15px;
 }
 
-.login-section input,
-.register_section input {
-  display: flex;
-  flex-direction: column;
-  width: 20rem;
-  height: 2rem;
-  border-radius: 5px;
+.icon {
+  padding: 10px;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
   margin: 1rem 0;
-  padding-left: 2rem;
+  border-radius: 8px;
+  background: #cac7c7;
+  color: #000000d3;
 }
 
-.login-section form, 
-.register_section form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.input-field:focus {
+  border: 2px solid #ffbb00;
 }
 
-.btn-login,
-.btn-register {
-  width: 200px !important;
+/* Set a style for the submit button */
+.s_btn,
+.l_btn {
+  background-color: #ffbb00;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.9;
 }
+
+.l_btn:hover,
+.s_btn:hover {
+  opacity: 1;
+}
+
 
 @media screen and (max-width: 1000px) {
   .about-card {
@@ -708,16 +704,13 @@ button {
     width: 100%;
     padding: 0 !important;
   }
-  .login,
-  .signup {
-    width: 80%;
+  
+  form {
+    width: 90% !important;
   }
-
-  .login input,
-  .signup input {
+  .input-field {
     width: 100%;
   }
-
   
   .logo_row {
     padding: 0 !important;
@@ -795,9 +788,5 @@ button {
   }
   .con_sect {
     margin: 1.5rem 0 !important;
-  }
-  .register_flex,
-  .sign_flex {
-   font-size: 8.5px;
   }
 }
