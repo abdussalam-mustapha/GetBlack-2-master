@@ -34,7 +34,7 @@ const Register = () => {
                         <input className="input-field" type="password" placeholder="Password" name="psw" />
                     </div>
 
-                    <button type="submit" className="s_btn btn">Register</button>
+                    <button type="submit" className="s_btn btn">Sign up</button>
                 </form>
         </section>
     )

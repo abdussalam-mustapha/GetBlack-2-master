@@ -25,17 +25,13 @@ const Login = () => {
                         <input className="input-field" type="text" placeholder="Username" name="usrnm" />
                     </div>
 
-                    <div className="input-container">
-                        <FiMail className='icon'/>
-                        <input className="input-field" type="text" placeholder="Email" name="email" />
-                    </div>
 
                     <div className="input-container">
                         <BsFillLockFill className='icon'/>
                         <input className="input-field" type="password" placeholder="Password" name="psw" />
                     </div>
 
-                    <button type="submit" className="l_btn btn">Register</button>
+                    <button type="submit" className="l_btn btn">Sign in</button>
                 </form>
         </section>
     )
