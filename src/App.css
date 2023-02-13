@@ -580,7 +580,6 @@ form {
 }
 
 .input-field {
-  width: 100%;
   padding: 10px;
   outline: none;
   margin: 1rem 0;
@@ -708,8 +707,19 @@ form {
   form {
     width: 90% !important;
   }
+  .input-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .input-field {
-    width: 100%;
+   width: 80%;
+  }
+
+  .l_btn,
+  .s_btn {
+    width: 120px;
   }
   
   .logo_row {

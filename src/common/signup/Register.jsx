@@ -18,7 +18,7 @@ const Register = () => {
     return (
         <section className='rg_section style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}'>
                 <form action="">
-                    <h2>Register Form</h2>
+                    <h2>Sign up</h2>
                     <div className="input-container">
                         <FaRegUserCircle className="icon"/>
                         <input className="input-field" type="text" placeholder="Username" name="usrnm" />

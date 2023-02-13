@@ -19,7 +19,7 @@ const Login = () => {
         <section className='lg_sect' style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}>
 
                 <form action="">
-                    <h2>Register Form</h2>
+                    <h2>Sign in</h2>
                     <div className="input-container">
                         <FaRegUserCircle className="icon"/>
                         <input className="input-field" type="text" placeholder="Username" name="usrnm" />
