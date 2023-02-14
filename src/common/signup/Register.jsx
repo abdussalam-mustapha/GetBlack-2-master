@@ -16,25 +16,27 @@ const Register = () => {
 
 
     return (
-        <section className='rg_section style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}'>
+        <section className='rg_section' style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}>
                 <form action="">
-                    <h2>Sign up</h2>
+                    <h2 className='f_text'>Sign up</h2>
                     <div className="input-container">
-                        <FaRegUserCircle className="icon"/>
+                        <FaRegUserCircle className="f_icon"/>
                         <input className="input-field" type="text" placeholder="Username" name="usrnm" />
                     </div>
 
                     <div className="input-container">
-                        <FiMail className='icon'/>
+                        <FiMail className='f_icon'/>
                         <input className="input-field" type="text" placeholder="Email" name="email" />
                     </div>
 
                     <div className="input-container">
-                        <BsFillLockFill className='icon'/>
+                        <BsFillLockFill className='f_icon'/>
                         <input className="input-field" type="password" placeholder="Password" name="psw" />
                     </div>
 
-                    <button type="submit" className="s_btn btn">Sign up</button>
+                    <div className="f_btn">
+                         <button type="submit" className="s_btn btn">Sign up</button>
+                    </div>    
                 </form>
         </section>
     )

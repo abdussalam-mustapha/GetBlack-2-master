@@ -19,19 +19,20 @@ const Login = () => {
         <section className='lg_sect' style={{ background: `url(${imageUrl}) center center / cover no-repeat` }}>
 
                 <form action="">
-                    <h2>Sign in</h2>
+                    <h2 className='f_text'>Sign in</h2>
                     <div className="input-container">
-                        <FaRegUserCircle className="icon"/>
+                        <FaRegUserCircle className="f_icon"/>
                         <input className="input-field" type="text" placeholder="Username" name="usrnm" />
                     </div>
 
 
                     <div className="input-container">
-                        <BsFillLockFill className='icon'/>
+                        <BsFillLockFill className='f_icon'/>
                         <input className="input-field" type="password" placeholder="Password" name="psw" />
                     </div>
-
+                      <div className="f_btn">
                     <button type="submit" className="l_btn btn">Sign in</button>
+                    </div>
                 </form>
         </section>
     )
