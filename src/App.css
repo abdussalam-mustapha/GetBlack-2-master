@@ -104,7 +104,7 @@ button {
 
 /*---------category----------*/
 .btn-primary {
-  background: #e94560;
+  background: orange;
   padding: 13px 40px;
   font-weight: bold;
   color: #fff;
@@ -117,14 +117,14 @@ button {
   margin-top: 40px;
 }
 .heading i {
-  color: #e94560;
+  color: #ffbb00;
   margin: 10px;
 }
 .discount {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  background: #b18203;
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 50px;
@@ -146,17 +146,17 @@ button {
 }
 .product .rate i {
   font-size: 15px;
-  color: #ffcd4e;
+  color: #b18203;
   margin: 5px 5px 5px 0;
 }
 .product .price {
   display: flex;
   justify-content: space-between;
-  color: #e94560;
+  color: #ad8005;
 }
 .price button {
   background: none;
-  color: #e94560;
+  color: #9c7300;
   font-size: 20px;
   transition: 0.5s;
   border: 1px solid rgb(3 0 71 / 9%);
@@ -166,7 +166,7 @@ button {
 }
 .price button:hover {
   cursor: pointer;
-  background-color: #e94560;
+  background-color: #ffbb00;
   color: #fff;
 }
 .product-like {
@@ -178,7 +178,7 @@ button {
   transition: 0.5s;
 }
 .product-like label {
-  background-color: #0f3460;
+  background-color: #2c2c2c;
   padding: 1px 10px;
   font-size: 12px;
   color: white;
@@ -219,7 +219,7 @@ button {
 }
 .control-btn .prev:hover,
 .control-btn .next:hover {
-  background: #e94560;
+  background: #ffbb00;
   color: white;
   cursor: pointer;
 }
@@ -322,7 +322,7 @@ button {
 }
 
 .v_flex .v_btn {
-  background-color: #FFD700;
+  background-color: orange;
   padding: 20px;
   border-radius: 5px;
   border: none;
@@ -376,11 +376,6 @@ button {
   height: 100%;
   padding: 50px 0;
 }
-
-/* .hp_main {
-  display: flex;
-  justify-content: center;
-} */
 
 .h_card {
   width: 300px;
@@ -577,7 +572,7 @@ form {
 
 .f_icon {
   /* padding: 10px; */
-  background-color: #ffbb00;
+  background-color: orange;
   margin-left: 2rem;
   color: white;
   padding: 7px;
@@ -603,7 +598,7 @@ form {
 /* Set a style for the submit button */
 .s_btn,
 .l_btn {
-  background-color: #ffbb00;
+  background-color: orange;
   color: white;
   padding: 15px 20px;
   border: none;
