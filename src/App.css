@@ -164,6 +164,11 @@ button {
   height: 35px;
   border-radius: 5px;
 }
+
+.heading-left img {
+  color: #ad8005;
+}
+
 .price button:hover {
   cursor: pointer;
   background-color: #ffbb00;
